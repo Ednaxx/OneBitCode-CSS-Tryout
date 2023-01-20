@@ -1,0 +1,121 @@
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #252424; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #777;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #444; 
+}
+
+
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+
+/* Header CSS */
+
+header {
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.icon {
+    height: 5vh;
+    margin-right: auto;
+    margin-left: 50px;
+}
+
+.logo {
+    height: 5vh;
+    margin-left: 6%;
+}
+
+.buttons {
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.buttons a {
+    border: solid rgb(202, 202, 202) 2px;
+    color: rgb(202, 202, 202);
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 5px 0px 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buttons a:hover {
+    border-color: rgb(199, 14, 39);
+}
+
+
+
+
+.lalala {height: 2000px;}
+
+/* Footer CSS */
+
+footer {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+.footLinks {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 40%;
+}
+
+.footLinks a {
+    color: rgb(202, 202, 202);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footLinks a:hover {
+    color: rgb(199, 14, 39);
+}
+
+footer img {
+    height: 2.5vh;
+    margin-left: auto;
+    margin-right: 50px;
+}
